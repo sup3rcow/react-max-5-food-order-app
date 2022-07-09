@@ -28,7 +28,7 @@ const cartReducer = (state, action) => {
     }
     return { items: updatedItems, totalAmount: updatedTotalAmount };
   } else if (action.type === "REMOVE") {
-    //
+    console.log("business logic from removing");
   }
 
   return defaultCartState;
